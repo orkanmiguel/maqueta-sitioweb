@@ -4,73 +4,60 @@
 banner:
   title: 'Sitio <span class="text-accent text-shadow-[0px_5px_15px] shadow-accent/10">Maqueta</span> Inicio <span class="text-secondary">Descripcion</span>'
   title_size: "text-4xl md:text-6xl"
-  content: "A fully responsive astro starter repo, ideal for simple (yet laborious) content-driven pages or landings."
-  image: /images/logo_v5_xl_pfp.webp
+  content: "ejemplo de una leve descripcion del sitio sobre las gasas de cobre"
+  image: /images/gasa01.png
   buttons:
-    - label: Get the Code
-      href: "https://github.com/diego-alfadev/alfadev-astro-starter"
-      target: "_blank"
-      icon: _GitHub
+    - label: Contacto
+      href: "/contact"
+      icon:
       addClasses: "w-full bg-gray-900 text-white hover:bg-accent dark:border-white/10 dark:border"
 
 sections:
-  - title: Tired of writing the same code over and over again?
-    content: "We've all been there... Setting up the same SEO, theming, and responsive layout boilerplate again and again. Say goodbye to that! <b class='text-accent'>alfadev-astro-starter</b> lets you jump straight into creating, skipping the repetitive groundwork."
-    image: /images/tired-of-writing.webp
+  - title: Tipos de beneficios que tiene usar este Producto
+    content: "El cobre es un mineral que necesitamos para mantenernos sanos. como producir energía, tejidos conectivos y vasos sanguíneos.<b class='text-accent'> El organismo usa cobre para llevar a cabo muchas funciones importantes,</b> El cobre también ayuda a mantener el sistema nervioso y el sistema inmunitario y activa los genes. "
+    image: /images/gasa02.png
 
-  - title: This is not a library
-    content: It's a <b class='text-accent'>ready-to-go template</b>. No steep learning curves or dozens of new dependencies. Just the essentials to build content-driven pages with ease.<br/>If you're familiar with <span class="text-accent font-bold">Astro</span>, you are good to go.
-    image: /images/this-is-not-a-library.webp
+  - title: Importancia
+    content: El cobre es un mineral que necesitamos para mantenernos sanos.  energía<span class="text-accent font-bold"> tejidos conectivos y vasos sanguíneos</span> como producir.
+    image: /images/gasa01.png
 
-  - title: Optimized out of the box
-    content: Lightweight and fast. Packed with <span class="text-accent font-bold">Astro</span>, <span class="text-[#38bdf8] font-bold">tailwind</span> and <span class="text-[#e41c81] font-bold">Sass</span> goodness, so your pages load <b class='text-accent'>blazing fast</b>—right from the start. <br/> All the pages are configured in a way that are SEO-friendly and defined with markdown.
-    image: /images/optimized-out-of-the-box.webp
+  - title: Tipos de beneficios que tiene usar este Producto
+    content: "El cobre es un mineral que necesitamos para mantenernos sanos. como producir energía, tejidos conectivos y vasos sanguíneos.<b class='text-accent'> El organismo usa cobre para llevar a cabo muchas funciones importantes,</b> El cobre también ayuda a mantener el sistema nervioso y el sistema inmunitario y activa los genes. "
+    image: /images/gasa02.png
 
-  - title: Looks great, day or night
-    content: "With <b class='text-accent'>built-in dark theme support</b>, your site will look amazing no matter what time of day your users visit. Or what their eyes prefer.<br/> <br/>Forget convoluted theming systems. alfadev-astro-starter keeps it <b class='text-accent'>simple and extensible</b>, so you can focus on your design and let the code work fori you."
-    image: /images/loogs-good.webp
+  - title: Tipos de beneficios que tiene usar este Producto
+    content: "El cobre es un mineral que necesitamos para mantenernos sanos. como producir energía, tejidos conectivos y vasos sanguíneos.<b class='text-accent'> El organismo usa cobre para llevar a cabo muchas funciones importantes,</b> El cobre también ayuda a mantener el sistema nervioso y el sistema inmunitario y activa los genes. "
+    image: /images/gasa03.png
 
 ##key features
 features:
-  title: Why <span class="text-accent">alfadev-starter</span>?
-  description: Because every content-driven page needs a lot boilerplate to initialize, and **we provide you with the tools and guidelines** needed to focus on what's important.
+  title: ¿Por qué <span class="text-accent">Gasas de Cobre</span>?
+  description: Te detallamos algunos ejemplo para que te hagas una idea
   feature_list:
     - icon: "box" #icon package react-feather-icon [https://feathericons.com/]
-      title: Simple
-      content: Avoid Complexity, small yet not useless. Loaded, but <b class="text-text">not overwhelming</b>.
+      title: Antibacterial
+      content: ayuda a evitar contaminacion de <b class="text-text">hongos y bacteria</b>.
     - icon: "clock" #icon package react-feather-icon [https://feathericons.com/]
-      title: Up-to-date
-      content: Using the latest version and best practices of <span class="text-accent font-bold">Astro</span>, <span class="text-[#38bdf8] font-bold">tailwindcss</span> and <span class="text-[#e41c81] font-bold">Sass</span>
+      title: Mas Saludable
+      content: Ayuda a un mejor cuidado y regeneracion de las  <span class="text-accent font-bold">heridas</span>
     - icon: "search" #icon package react-feather-icon [https://feathericons.com/]
-      title: SEO Friendly
-      content: Boost your site's visibility with <b class="text-text">built-in SEO optimizations</b>, including automatic sitemap generation using <a target='blank' href="https://docs.astro.build/es/guides/integrations-guide/sitemap/"><span class="text-accent font-bold underline">astrojs/sitemap</span></a>.
+      title: Antibacterial
+      content: ayuda a evitar contaminacion de <b class="text-text">hongos y bacteria</b>.
     - icon: "plus" #icon package react-feather-icon [https://feathericons.com/]
-      title: Extendable
-      content: Add or change content just by <b class="text-text">editing markdown files</b>, so it stays in one place regardless of the code.
-    - icon: "coffee" #icon package react-feather-icon [https://feathericons.com/]
-      title: "Focused"
-      content: Put you effort on what's important, not on small details. Dont worry about <span class="text-shadow-sm shadow-surface-contrast">***that damn shadow***</span>.
-    - icon: "tool" #icon package react-feather-icon [https://feathericons.com/]
-      title: Customizable
-      content: Every corner of the page <b class="text-text">can be easily changed</b> to fit your needs.
-    - icon: "moon" #icon package react-feather-icon [https://feathericons.com/]
-      title: Dark Mode Support
-      content: Fully supports ***dark theme*** with an easy-to-extend theming system.
-    - icon: "feather" #icon package react-feather-icon [https://feathericons.com/]
-      title: Lightweight
-      content: Fast and efficient. Every asset is optimized to ensure <b class="text-text">minimal load times</b>.
-    - icon: "layers" #icon package react-feather-icon [https://feathericons.com/]
-      title: Modular
-      content: Built with ***reusable components*** that simplify adding or editing sections of the page.
-    - icon: "zap" #icon package react-feather-icon [https://feathericons.com/]
-      title: Performance-First
-      content: Designed with <b class="text-text">best-in-class performance</b> metrics to improve the user experience.
-    - icon: "layout" #icon package react-feather-icon [https://feathericons.com/]
-      title: Content-Centric
-      content: Focused on delivering content seamlessly, making it ideal for <b class="text-text">portfolios, showcases, or landing pages</b>.
-    - icon: "code" #icon package react-feather-icon [https://feathericons.com/]
-      title: Developer-Friendly
-      content: Crafted for developers who value ***simplicity, flexibility, and modern*** tools.
+      title: Mas Saludable
+      content: Ayuda a un mejor cuidado y regeneracion de las  <span class="text-accent font-bold">heridas</span>.
+    - icon: "box" #icon package react-feather-icon [https://feathericons.com/]
+      title: Antibacterial
+      content: ayuda a evitar contaminacion de <b class="text-text">hongos y bacteria</b>.
+    - icon: "clock" #icon package react-feather-icon [https://feathericons.com/]
+      title: Mas Saludable
+      content: Ayuda a un mejor cuidado y regeneracion de las  <span class="text-accent font-bold">heridas</span>
+    - icon: "search" #icon package react-feather-icon [https://feathericons.com/]
+      title: Antibacterial
+      content: ayuda a evitar contaminacion de <b class="text-text">hongos y bacteria</b>.
+    - icon: "plus" #icon package react-feather-icon [https://feathericons.com/]
+      title: Mas Saludable
+      content: Ayuda a un mejor cuidado y regeneracion de las  <span class="text-accent font-bold">heridas</span>.
 
 #testimonial
 testimonial:
