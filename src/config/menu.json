@@ -21,12 +21,12 @@
 
   "footer": [
     {
-      "name": "About",
-      "url": "/about"
+      "name": "inicio",
+      "url": "/"
     },
     {
-      "name": "Changelog",
-      "url": "/changelog"
+      "name": "Contacto",
+      "url": "/contact"
     }
   ]
 }
