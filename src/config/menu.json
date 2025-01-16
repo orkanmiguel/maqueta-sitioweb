@@ -4,15 +4,7 @@
       "name": "Inicio",
       "url": "/"
     },
-    {
-      "name": "Informacion",
-      "url": "/features"
-    },
 
-    {
-      "name": "Nosotros",
-      "url": "/about"
-    },
     {
       "name": "Contacto",
       "url": "/contact"

@@ -61,8 +61,8 @@ features:
 
 #testimonial
 testimonial:
-  title: Our adopters and their clients <ins>have nice things to say</ins> about us
-  description: Or they will, once they taste a drop of **what we've built**
+  title: Nuestros clientes <ins>tienen cosas buenas que decir</ins> sobre nosotros
+  description:
   testimonial_list:
     - author: Jhon Doe
       organization: Example Corp
