@@ -44,27 +44,33 @@ const image_position_classes = (() => {
 <section class="section relative">
   <div class="container">
     <div
-      class=`row items-center ${image_position ? 'custom-position' : ''} ${image_position_classes[0]}`
+      class=`bg-pink-200 row items-center ${image_position ? 'custom-position' : ''} ${image_position_classes[0]}`
     >
-      {
-        image && image_position === "top" && (
+    {
+      image && image_position != "top" && (
+        <div class={`${image_position_classes[2]}`}>
+          <Image
+            class="bg-red-300 object-contain"
+            alt="section-image"
+            src={image}
+            width={400}
+            height={400}
+          />
+        </div>
+      )
+    }
+       {
+        image && image_position != "top" && (
           <div class={`${image_position_classes[2]}`}>
             <Image
-              class="w-1/2 mr-auto ml-auto object-contain"
+              class="bg-green-200 object-contain"
               alt="section-image"
-              src={image}
+              src="/images/nanosafe/letraslogo.png"
               width={500}
               height={333}
             />
-          </div>
-        )
-      }
-      <div class=`${image_position_classes[1]}`>
-        <h1 class={`${section.title_size}`} set:html={markdownify(title)} />
-
-        <p class="mt-6" set:html={markdownify(content)} />
-
-        {
+             <p class="mt-6" set:html={markdownify(content)} />
+             {
           buttons && buttons.length > 0 && (
             <div class="flex flex-wrap mt-8">
               {buttons.map((button) => (
@@ -73,20 +79,21 @@ const image_position_classes = (() => {
             </div>
           )
         }
+          </div>
+
+
+        )
+      }
+
+
+      <div class=`${image_position_classes[1]}`>
+
+
+
+
+
       </div>
-        {
-          image && image_position != "top" && (
-            <div class={`${image_position_classes[2]}`}>
-              <Image
-                class="w-full object-contain"
-                alt="section-image"
-                src={image}
-                width={500}
-                height={333}
-              />
-            </div>
-          )
-        }
+
     </div>
   </div>
 </section>

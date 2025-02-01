@@ -4,8 +4,8 @@
 banner:
   title: 'Sitio <span class="text-accent text-shadow-[0px_5px_15px] shadow-accent/10">Nano Safe</span> Inicio <span class="text-secondary">Descripcion</span>'
   title_size: "text-4xl md:text-6xl"
-  content: "ejemplo de una leve descripcion del sitio sobre las gasas de cobre"
-  image: /images/gasa01.png
+  content: "Seguridad quirúrgica con nanopartículas de plata en gasa"
+  image: /images/nanosafe/Recurso7.webp
   buttons:
     - label: Contacto
       href: "/contact"
