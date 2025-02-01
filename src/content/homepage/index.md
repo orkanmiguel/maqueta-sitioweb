@@ -10,7 +10,7 @@ banner:
     - label: Contacto
       href: "/contact"
       icon:
-      addClasses: "w-full bg-gray-900 text-white hover:bg-accent dark:border-white/10 dark:border"
+      addClasses: "bg-cyan-600 text-white hover:bg-accent dark:border-white/10 dark:border"
 
 sections:
   - title: Tipos de beneficios que tiene usar este Producto

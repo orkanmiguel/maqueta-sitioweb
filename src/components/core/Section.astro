@@ -44,13 +44,13 @@ const image_position_classes = (() => {
 <section class="section relative">
   <div class="container">
     <div
-      class=`bg-pink-200 row items-center ${image_position ? 'custom-position' : ''} ${image_position_classes[0]}`
+      class=` row items-center ${image_position ? 'custom-position' : ''} ${image_position_classes[0]}`
     >
     {
       image && image_position != "top" && (
         <div class={`${image_position_classes[2]}`}>
           <Image
-            class="bg-red-300 object-contain"
+            class=" object-contain"
             alt="section-image"
             src={image}
             width={400}
@@ -63,7 +63,7 @@ const image_position_classes = (() => {
         image && image_position != "top" && (
           <div class={`${image_position_classes[2]}`}>
             <Image
-              class="bg-green-200 object-contain"
+              class=" object-contain"
               alt="section-image"
               src="/images/nanosafe/letraslogo.png"
               width={500}
