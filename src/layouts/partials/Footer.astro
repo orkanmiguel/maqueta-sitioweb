@@ -18,7 +18,7 @@ const has_social = Object.entries(social).some(
   <div class="container">
     <div class="gx-5 row pb-10 pt-[52px]">
       <div class="col-12 mt-12 md:col-6 lg:col-3">
-        <div class="mt-50">
+        <div class="mt-50 flex">
           <Image
             class="object-contain"
             alt="section-image"
@@ -40,23 +40,18 @@ const has_social = Object.entries(social).some(
             class="object-contain"
             alt="section-image"
             src="/images/nanosafe/logocorfo.png"
-            width={200}
-            height={200}
+            width={150}
+            height={150}
           />
         </div>
-        <p class="mt-6">
-          {footer_description}
-        </p>
-        <p class="mt-6" set:html={markdownify(copyright)} />
+
+
       </div>
       {
         has_social && (
           <>
-            <div class="col-12 mt-12 md:col-6 lg:col-3">
-              <h6>{social.title ?? "Social"}</h6>
-              <Social source={social} className="social-icons mt-4 lg:mt-6" />
-            </div>
-            <div class="col-12 mt-12 md:col-6 lg:col-3">
+
+            <div class=" ml-20 col-12 mt-12 md:col-6 lg:col-3">
               <h6>Enlaces rápidos</h6>
               <ul>
                 {footer.map((item, i) => (
@@ -70,24 +65,25 @@ const has_social = Object.entries(social).some(
                   </li>
                 ))}
               </ul>
+
             </div>
+
           </>
         )
       }
-      <div class="col-12 mt-12 md:col-6 lg:col-3">
-        <h6>Ubicación y Contacto</h6>
+      <div class=" ml-20 col-14 mt-12  md:col-7 lg:col-4">
+
+        <h6>Contactos</h6>
         <ul>
-          <li class="mb-2">{location}</li>
-          <li class="mb-2">
-            <a class="mb-2 hover:text-primary" href={`mailto:${email}`}>
-              {email}
-            </a>
-          </li>
-          <li>
+          <li class="-mt-7">
             <a class="hover:text-primary hover:underline" href={`tel:${phone}`}>
               {phone}
             </a>
           </li>
+          <div class="flex row mt-6">
+            <h6>{social.title ?? "Redes Sociales"}</h6>
+            <Social source={social} className="social-icons -mt-5" />
+          </div>
         </ul>
       </div>
     </div>
