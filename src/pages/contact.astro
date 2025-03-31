@@ -7,70 +7,80 @@ import { getEntry } from "astro:content";
 const entry = await getEntry("contact", "index");
 const { contact_form_action } = config.params;
 ---
-
+<!-- images/nanosafe/VideoContactoV1.mp4 -->
 <Base
   entry_keys={["contact", "index"]}
 >
-  <section class=" pb-6 pt-16">
-    <div class="container"><PageHeader page_data={entry.data} /></div>
-  </section>
+<div class="relative w-full h-screen">
+  <video autoplay muted loop class="absolute inset-0 w-full h-full object-cover md:h-[100vh] sm:h-[50vh]">
+      <source src="images/nanosafe/VideoContactoV1.mp4" type="video/mp4" />
+      Tu navegador no soporta videos en HTML5.
+  </video>
+  <div class="relative z-10 text-white p-4 md:p-2 sm:p-6">
+      <!-- Contenido encima del video -->
+      <section class=" pb-6">
+        <div class="container font-bold text-center text-shadow-[0px_5px_15px] shadow-accent/8"><PageHeader page_data={entry.data} /></div>
+      </section>
+        <div class="container">
+          <div class="row">
 
-  <section class="section pt-0">
-    <div class="container">
-      <div class="row">
-
-        <div class="md:col-12 md:order-1 grid place-content-center">
-          <form
-            class="lg:max-w-[484px]"
-            action={contact_form_action}
-            method="POST"
-          >
-            <div class="form-group mb-5">
-              <label class="form-label" for="name">Nombre Completo</label>
-              <input
-                class="form-control"
-                type="text"
-                id="name"
-                placeholder="Tú nombre completo"
-              />
+            <div class="md:col-12 md:order-1 grid place-content-center">
+              <form
+                class="lg:max-w-[484px]"
+                action={contact_form_action}
+                method="POST"
+              >
+                <div class="form-group mb-5">
+                  <label class="form-label text-white font-bold text-center text-shadow-[0px_5px_15px] shadow-accent/8" for="name">Nombre Completo</label>
+                  <input
+                    class="form-control bg-white font-bold"
+                    type="text"
+                    id="name"
+                    placeholder="Tú nombre completo"
+                  />
+                </div>
+                <div class="form-group mb-5">
+                  <label class="text-white form-label font-bold text-center text-shadow-[0px_5px_15px] shadow-accent/8" for="eamil">Correo Electronico</label>
+                  <input
+                    class="form-control bg-white font-bold"
+                    type="text"
+                    id="email"
+                    placeholder="Tú Correo"
+                  />
+                </div>
+                <div class="form-group mb-5">
+                  <label class="text-white form-label font-bold text-center text-shadow-[0px_5px_15px] shadow-accent/8" for="reason">Razón/Propósito</label>
+                  <select name="reason" id="reason" class="bg-white text-black form-select" required>
+                    <option value="" class="text-black">Seleccione motivo/propósito</option>
+                    <option value="hello">Quería saludar.</option>
+                    <option value="work-with-you">Quiero trabajar contigo</option>
+                    <option value="work-for-me">Quiero que trabajes para mí</option>
+                    <option value="investment plane-3">Hay un proyecto que quiero discutir contigo.</option>
+                    <option value="investment plane-3">Otro</option>
+                  </select>
+                </div>
+                <div class="form-group mb-5">
+                  <label class="text-white form-label font-bold text-center text-shadow-[0px_5px_15px] shadow-accent/8" for="message">Mensaje aquí</label>
+                  <textarea
+                    class="bg-white form-control h-[150px]"
+                    id="message"
+                    cols="30"
+                    rows="10"></textarea>
+                </div>
+                <input
+                  class=" btn-primary block w-full"
+                  type="submit"
+                  value="Enviar Mensaje"
+                  onclick="alert('This form is not functional. Please use the email address provided in the footer to contact me.')"
+                />
+              </form>
             </div>
-            <div class="form-group mb-5">
-              <label class="form-label" for="eamil">Correo Electronico</label>
-              <input
-                class="form-control"
-                type="text"
-                id="email"
-                placeholder="Tú Correo"
-              />
-            </div>
-            <div class="form-group mb-5">
-              <label class="form-label" for="reason">Razón/Propósito</label>
-              <select name="reason" id="reason" class="form-select" required>
-                <option value="">Seleccione motivo/propósito</option>
-                <option value="hello">Quería saludar.</option>
-                <option value="work-with-you">Quiero trabajar contigo</option>
-                <option value="work-for-me">Quiero que trabajes para mí</option>
-                <option value="investment plane-3">Hay un proyecto que quiero discutir contigo.</option>
-                <option value="investment plane-3">Otro</option>
-              </select>
-            </div>
-            <div class="form-group mb-5">
-              <label class="form-label" for="message">Mensaje aquí</label>
-              <textarea
-                class="form-control h-[150px]"
-                id="message"
-                cols="30"
-                rows="10"></textarea>
-            </div>
-            <input
-              class="btn-primary block w-full"
-              type="submit"
-              value="Send Message"
-              onclick="alert('This form is not functional. Please use the email address provided in the footer to contact me.')"
-            />
-          </form>
+          </div>
         </div>
-      </div>
-    </div>
-  </section>
+  </div>
+</div>
+
+
+
+
 </Base>

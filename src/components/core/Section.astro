@@ -9,11 +9,15 @@ export type Props = {
   section: Section;
 };
 
+
+
 const { section } = Astro.props;
 if (!section) {
   throw new Error("Section data is required");
 }
 const { title, buttons, image, content, image_position } = section;
+
+
 const image_position_classes = (() => {
   if (!image && !image_position) {
     return ["", "col-12", ""];
@@ -22,14 +26,16 @@ const image_position_classes = (() => {
   if (image) {
     switch (image_position) {
       case "top":
-        return ["flex-row-reverse", "col-12", "col-12 mb-4 lg:mb-0"];
+        return ["flex-row-reverse", "col-12", "col-12 mb-4 lg:mb-0 "];
       case "bottom":
         return ["", "col-12", "col-12"];
       case "left":
         return [
+
           "flex-row-reverse",
           "col-12 md:col-7 lg:col-6",
           "col-12 md:col-5 lg:col-6",
+
         ];
       case "right":
       default:
@@ -39,22 +45,27 @@ const image_position_classes = (() => {
     return ["", "col-12", ""];
   }
 })();
+
+
+console.log("section",image_position_classes[2])
 ---
 
-<section class="section relative">
-  <div class="container">
+<section class="section relative ">
+  <div class="container ">
     <div
-      class=` row items-center ${image_position ? 'custom-position' : ''} ${image_position_classes[0]}`
+      class=` row items-center ${image_position ? 'custom-position bg-blue-200' : ''} ${image_position_classes[0]} `
     >
+    <h1 class="text-center">{title}</h1>
     {
       image && image_position != "top" && (
-        <div class={`${image_position_classes[2]}`}>
+        <div class={`${image_position_classes[2]} `}>
+
           <Image
-            class=" object-contain"
+            class=" object-contain mt-20 transition-transform duration-300 transform hover:scale-110"
             alt="section-image"
             src={image}
-            width={400}
-            height={400}
+            width={600}
+            height={600}
           />
         </div>
       )
@@ -62,13 +73,7 @@ const image_position_classes = (() => {
        {
         image && image_position != "top" && (
           <div class={`${image_position_classes[2]}`}>
-            <Image
-              class=" object-contain"
-              alt="section-image"
-              src="/images/nanosafe/letraslogo.png"
-              width={500}
-              height={333}
-            />
+
              <p class="mt-6" set:html={markdownify(content)} />
              {
           buttons && buttons.length > 0 && (

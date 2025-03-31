@@ -7,31 +7,27 @@ banner:
   content: "Seguridad quirúrgica con nanopartículas de plata en gasa"
   image: /images/nanosafe/Recurso7.webp
   buttons:
-    - label: Contacto
+    - label: Pide tu muestra ahora!
       href: "/contact"
       icon:
       addClasses: "bg-cyan-600 text-white hover:bg-accent dark:border-white/10 dark:border"
 
 sections:
-  - title: Tipos de beneficios que tiene usar este Producto
+  - title: "¿Que es nanosafe?"
     content: "El cobre es un mineral que necesitamos para mantenernos sanos. como producir energía, tejidos conectivos y vasos sanguíneos.<b class='text-accent'> El organismo usa cobre para llevar a cabo muchas funciones importantes,</b> El cobre también ayuda a mantener el sistema nervioso y el sistema inmunitario y activa los genes. "
-    image: /images/gasa02.png
+    image: /images/nanosafe/NanoGasa.png
 
-  - title: Importancia
+  - title: Impregnación de nanoparticulas
     content: El cobre es un mineral que necesitamos para mantenernos sanos.  energía<span class="text-accent font-bold"> tejidos conectivos y vasos sanguíneos</span> como producir.
-    image: /images/gasa01.png
+    image: /images/nanosafe/Maquina01.png
 
-  - title: Tipos de beneficios que tiene usar este Producto
+  - title: Gasa nanosafe
     content: "El cobre es un mineral que necesitamos para mantenernos sanos. como producir energía, tejidos conectivos y vasos sanguíneos.<b class='text-accent'> El organismo usa cobre para llevar a cabo muchas funciones importantes,</b> El cobre también ayuda a mantener el sistema nervioso y el sistema inmunitario y activa los genes. "
-    image: /images/gasa02.png
-
-  - title: Tipos de beneficios que tiene usar este Producto
-    content: "El cobre es un mineral que necesitamos para mantenernos sanos. como producir energía, tejidos conectivos y vasos sanguíneos.<b class='text-accent'> El organismo usa cobre para llevar a cabo muchas funciones importantes,</b> El cobre también ayuda a mantener el sistema nervioso y el sistema inmunitario y activa los genes. "
-    image: /images/gasa03.png
+    image: /images/nanosafe/gasa.png
 
 ##key features
 features:
-  title: ¿Por qué <span class="text-accent">Gasas de Cobre</span>?
+  title: <div class="bg-blue-100 flex flex-row justify-center item-center"><h1 class="mr-2 font-normal text-center text-blue-400 ">Evidencia</h1> <h1 class="text-center font-bold text-blue-400 bg-blue-100">Científica</h1></div>
   description: Te detallamos algunos ejemplo para que te hagas una idea
   feature_list:
     - icon: "box" #icon package react-feather-icon [https://feathericons.com/]
