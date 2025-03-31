@@ -20,44 +20,48 @@ const { title, buttons, image, content, image_position } = section;
 
 const image_position_classes = (() => {
   if (!image && !image_position) {
-    return ["", "col-12", ""];
+    return ["", "col-12 ", ""];
   }
 
   if (image) {
     switch (image_position) {
       case "top":
-        return ["flex-row-reverse", "col-12", "col-12 mb-4 lg:mb-0 "];
+        return ["flex-row-reverse ", "col-12 ", "col-12 mb-4 lg:mb-0 "];
       case "bottom":
         return ["", "col-12", "col-12"];
       case "left":
         return [
 
-          "flex-row-reverse",
-          "col-12 md:col-7 lg:col-6",
+          "flex-row-reverse ",
+          "col-12 md:col-7 lg:col-6 ",
           "col-12 md:col-5 lg:col-6",
 
         ];
       case "right":
       default:
-        return ["", "col-12 md:col-7 lg:col-6", "col-12 md:col-5 lg:col-6"];
+        return ["", "col-12 md:col-7 lg:col-6 ", "col-12 md:col-5 lg:col-6 "];
     }
   } else {
-    return ["", "col-12", ""];
+    return ["", "col-12 ", ""];
   }
 })();
 
 
-console.log("section",image_position_classes[2])
+
+const texto_modificado = title.replaceAll(" ", "#")
+console.log("image_position_classes[2]",image_position_classes[2])
 ---
 
-<section class="section relative ">
-  <div class="container ">
+<section id={texto_modificado} class="section relative ">
+  <div class="container " >
     <div
-      class=` row items-center ${image_position ? 'custom-position bg-blue-200' : ''} ${image_position_classes[0]} `
+      class=` row items-center ${image_position ? 'custom-position ' : ''} ${image_position_classes[0]} `
     >
-    <h1 class="text-center">{title}</h1>
+    <h1 class="text-center" >{title}</h1>
     {
+
       image && image_position != "top" && (
+
         <div class={`${image_position_classes[2]} `}>
 
           <Image
@@ -69,6 +73,7 @@ console.log("section",image_position_classes[2])
           />
         </div>
       )
+
     }
        {
         image && image_position != "top" && (
@@ -91,7 +96,7 @@ console.log("section",image_position_classes[2])
       }
 
 
-      <div class=`${image_position_classes[1]}`>
+      <div class=`${image_position_classes[1]} `>
 
 
 
