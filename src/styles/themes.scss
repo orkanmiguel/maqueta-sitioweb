@@ -54,7 +54,7 @@ $dark: (
 }
 
 .dark {
-  @each $key, $value in $dark {
+  @each $key, $value in $default {
     --#{$key}: #{to_rgba($value, 1)};
   }
 }

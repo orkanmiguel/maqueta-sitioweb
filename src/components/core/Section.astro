@@ -49,10 +49,10 @@ const image_position_classes = (() => {
 
 
 const texto_modificado = nombre.replaceAll(" ", "#")
-console.log("image_position_classes[2]",texto_modificado)
+/* console.log("image_position_classes[2]",texto_modificado) */
 ---
 
-<section id={texto_modificado} class=`${image_position ? 'bg-blue-200' : ''}  section relative`>
+<section id={texto_modificado} class=`${image_position ? '' : ''} bg-blue-200 section relative`>
   <div class="container " >
     <div
       class=` row items-center ${image_position ? 'custom-position ' : ''} ${image_position_classes[0]} `

@@ -17,7 +17,7 @@ sections:
     content:
       "<p class='font-bold text-black'>¿Sabías que las infecciones complican millones de tratamientos cada año?</p>
       Hoy te presentamos una solución innovadora. <b class='text-blue-400'>nanosafe</b> utliza tecnologia basada en partículas de plata extremadamente pequeñas, cuyo tamaño       está en el rango de los nanómetros (1 a 100 nanómetros). A esta escala, las partículas de plata tienen propiedades únicas y potentes que      no se encuentran en su forma más habitual."
-    image: /images/nanosafe/NanoGasa.png
+    image: /images/nanosafe/IMPREGNACION.gif
     nombre: ¿Que es nanosafe?
 
   - title: <div class=" flex flex-row justify-center item-center"><h1 class=" mr-2 font-normal text-center text-blue-400 ">Impregnación de</h1> <h1 class="text-center font-bold text-blue-400">nanoparticulas</h1></div>
@@ -31,12 +31,12 @@ sections:
     content:
       "Acción antimicrobiana frente a un amplio espectro de microorganismos patógenos responsables de infecciones antibiótico-resistentes. Eficaz frente a bacterias Gram (-) y Gram (+), como Staphylococcus aureus y Escherida coli. Facilita proliferación de la flora normal de la epidermis. Mantiene su efectivisdad incluso en ambiente húmedo durante 72 horas.
       No adherente y atoóxico."
-    image: /images/nanosafe/gasa.png
+    image: /images/nanosafe/GAZA_ANIMADA.gif
     nombre: Gasa nanosafe
 
 ##key features
 features:
-  title: <div class="bg-blue-100 flex flex-row justify-center item-center"><h1 class="mr-2 font-normal text-center text-blue-400 ">Evidencia</h1> <h1 class="text-center font-bold text-blue-400 bg-blue-100">Científica</h1></div>
+  title: <div class=" flex flex-row justify-center item-center"><h1 class="mr-2 font-normal text-center text-blue-400 ">Evidencia</h1> <h1 class="text-center font-bold text-blue-400 ">Científica</h1></div>
   description: Te detallamos algunos ejemplo para que te hagas una idea
   feature_list:
     - icon: "box" #icon package react-feather-icon [https://feathericons.com/]
