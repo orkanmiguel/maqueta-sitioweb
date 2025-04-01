@@ -13,17 +13,26 @@ banner:
       addClasses: "bg-cyan-600 text-white hover:bg-accent dark:border-white/10 dark:border"
 
 sections:
-  - title: "¿Que es nanosafe?"
-    content: "El cobre es un mineral que necesitamos para mantenernos sanos. como producir energía, tejidos conectivos y vasos sanguíneos.<b class='text-accent'> El organismo usa cobre para llevar a cabo muchas funciones importantes,</b> El cobre también ayuda a mantener el sistema nervioso y el sistema inmunitario y activa los genes. "
+  - title: <div class=" flex flex-row justify-center item-center"><h1 class=" mr-2 font-normal text-center text-blue-400 ">¿Que es</h1> <h1 class="text-center font-bold text-blue-400">nanosafe?</h1></div>
+    content:
+      "<p class='font-bold text-black'>¿Sabías que las infecciones complican millones de tratamientos cada año?</p>
+      Hoy te presentamos una solución innovadora. <b class='text-blue-400'>nanosafe</b> utliza tecnologia basada en partículas de plata extremadamente pequeñas, cuyo tamaño       está en el rango de los nanómetros (1 a 100 nanómetros). A esta escala, las partículas de plata tienen propiedades únicas y potentes que      no se encuentran en su forma más habitual."
     image: /images/nanosafe/NanoGasa.png
+    nombre: ¿Que es nanosafe?
 
-  - title: Impregnación de nanoparticulas
-    content: El cobre es un mineral que necesitamos para mantenernos sanos.  energía<span class="text-accent font-bold"> tejidos conectivos y vasos sanguíneos</span> como producir.
+  - title: <div class=" flex flex-row justify-center item-center"><h1 class=" mr-2 font-normal text-center text-blue-400 ">Impregnación de</h1> <h1 class="text-center font-bold text-blue-400">nanoparticulas</h1></div>
+    content:
+      Impregnado con suspensión antimicrobiana de nanoparticulas de plata metálicas que al oxidarse liberan Ag+ de acción biocida.
+      Evita penetración de microorganismos a través del apósito.
     image: /images/nanosafe/Maquina01.png
+    nombre: Impregnacion de nanoparticulas
 
-  - title: Gasa nanosafe
-    content: "El cobre es un mineral que necesitamos para mantenernos sanos. como producir energía, tejidos conectivos y vasos sanguíneos.<b class='text-accent'> El organismo usa cobre para llevar a cabo muchas funciones importantes,</b> El cobre también ayuda a mantener el sistema nervioso y el sistema inmunitario y activa los genes. "
+  - title: <div class=" flex flex-row justify-center item-center"><h1 class=" mr-2 font-normal text-center text-blue-400 ">Gasa</h1> <h1 class="text-center font-bold text-blue-400">nanosafe</h1></div>
+    content:
+      "Acción antimicrobiana frente a un amplio espectro de microorganismos patógenos responsables de infecciones antibiótico-resistentes. Eficaz frente a bacterias Gram (-) y Gram (+), como Staphylococcus aureus y Escherida coli. Facilita proliferación de la flora normal de la epidermis. Mantiene su efectivisdad incluso en ambiente húmedo durante 72 horas.
+      No adherente y atoóxico."
     image: /images/nanosafe/gasa.png
+    nombre: Gasa nanosafe
 
 ##key features
 features:

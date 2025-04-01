@@ -15,7 +15,7 @@ const { section } = Astro.props;
 if (!section) {
   throw new Error("Section data is required");
 }
-const { title, buttons, image, content, image_position } = section;
+const { title, buttons, image, content, image_position, nombre } = section;
 
 
 const image_position_classes = (() => {
@@ -48,16 +48,16 @@ const image_position_classes = (() => {
 
 
 
-const texto_modificado = title.replaceAll(" ", "#")
-console.log("image_position_classes[2]",image_position_classes[2])
+const texto_modificado = nombre.replaceAll(" ", "#")
+console.log("image_position_classes[2]",texto_modificado)
 ---
 
-<section id={texto_modificado} class="section relative ">
+<section id={texto_modificado} class=`${image_position ? 'bg-blue-200' : ''}  section relative`>
   <div class="container " >
     <div
       class=` row items-center ${image_position ? 'custom-position ' : ''} ${image_position_classes[0]} `
     >
-    <h1 class="text-center" >{title}</h1>
+    <h1 class="mt-6" set:html={markdownify(title)} />
     {
 
       image && image_position != "top" && (

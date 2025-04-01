@@ -28,6 +28,7 @@ export interface PageSection {
   content: string;
   buttons: LinkButton[] & { length: 0 | 1 | 2 };
   image: string;
+  nombre: string;
   image_position?: "top" | "bottom" | "left" | "right";
 }
 
