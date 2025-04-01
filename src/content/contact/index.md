@@ -5,5 +5,5 @@ meta_keywords: ""
 
 title: Contáctenos
 description: ""
-video: images/nanosafe/VideoContactoV1.mp4
+video: /images/nanosafe/VideoContactoV1.mp4
 ---
