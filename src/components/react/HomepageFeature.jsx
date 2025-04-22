@@ -14,12 +14,16 @@ const HomapageFeature = ({ feature_list }) => {
           >
             <div>
               <div className="flex flex-row items-center">
-                <span className="icon">
-                <FeatherIcon />
-                </span>
-                <h3 className="ml-2 break-all text-sm md:text-lg">{item.title}</h3>
+                {/* <span className="icon">
+                  <FeatherIcon />
+                </span> */}
+                <h3 className="ml-2 break-all text-sm md:text-lg">
+                  {item.title}
+                </h3>
               </div>
-              <p dangerouslySetInnerHTML={{__html: markdownify(item.content)}}></p>
+              <p
+                dangerouslySetInnerHTML={{ __html: markdownify(item.content) }}
+              ></p>
             </div>
           </div>
         );
