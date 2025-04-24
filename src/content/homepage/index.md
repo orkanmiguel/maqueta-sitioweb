@@ -8,71 +8,80 @@ banner:
   image: /images/nanosafe/Recurso7.webp
   buttons:
     - label: Solicitar muestra
-      href: "/contact"
+      href: "/contacto"
       icon:
-      addClasses: "bg-cyan-600 text-white hover:bg-accent dark:border-white/10 dark:border"
+      addClasses: "bg-cyan-500 text-white hover:bg-accent dark:border-white/10 dark:border"
 
 sections:
   - title: <div class="flex flex-col justify-center items-center">
-      <h1 class="tracking-[.15em] mr-2 font-normal text-center text-blue-400  ">¿Que es</h1>
-      <h1 class="tracking-[.15em] text-center font-bold text-blue-400  ">nanosafe?</h1>
+      <h1 style="color:#00B2E2" class="tracking-[.15em] mr-2 font-normal text-center ">¿Que es</h1>
+      <h1 style="color:#00B2E2" class="tracking-[.15em] text-center font-bold   ">nanosafe?</h1>
       </div>
-    content:
-      "<p class='font-bold text-black'>¿Sabías que las infecciones complican millones de tratamientos cada año?</p>
-      Hoy te presentamos una solución innovadora. <b class='text-blue-400'>nanosafe</b> utliza tecnologia basada en partículas de plata extremadamente pequeñas, cuyo tamaño       está en el rango de los nanómetros (1 a 100 nanómetros). A esta escala, las partículas de plata tienen propiedades únicas y potentes que      no se encuentran en su forma más habitual."
+    content: <div  class="">
+      <p style="color:#4E4E4E" class="p-2">Nanosafe es la innovadora solución que fusiona gasa impregnada con nanopartículas de plata y una máquina automatizada de última generación.</p>
+      <p style="color:#4E4E4E" class="p-2">Su sistema integral ofrece una protección avanzada contra infecciones y facilita la producción controlada de apósitos médicos, posicionándose como la opción ideal para hospitales y centros de salud.</p>
+      </div>
     image: /images/nanosafe/IMPREGNACION.gif
     nombre: ¿Que es nanosafe?
 
   - title: <div class="flex flex-col justify-center items-center">
-      <h1 class="tracking-[.15em] mr-2 font-normal text-center text-blue-400  ">Impregnación </h1>
-      <h1 class="tracking-[.15em] text-center font-bold text-blue-400  ">de nanoparticulas</h1>
+      <h1 style="color:#00B2E2" class="tracking-[.15em] mr-2 font-normal text-center  ">Impregnación </h1>
+      <h1 style="color:#00B2E2" class="tracking-[.15em] text-center font-bold   ">de nanoparticulas</h1>
       </div>
-    content:
-      Impregnado con suspensión antimicrobiana de nanoparticulas de plata metálicas que al oxidarse liberan Ag+ de acción biocida.
-      Evita penetración de microorganismos a través del apósito.
+    content: <div  class="">
+      <p style="color:#4E4E4E" class="p-2"> El proceso comienza con el paso de la gasa por una máquina especializada que rocía una solución de nanoplata de manera uniforme sobre su superficie. </p>
+      <p style="color:#4E4E4E" class="p-2">Este sistema controlado asegura que cada fibra del material reciba la cantidad adecuada de nanopartículas. A continuación, la gasa impregnada atraviesa una cámara de secado con temperatura regulada, donde las partículas se fijan sin alterar la textura ni la flexibilidad del material. </p>
+      <p style="color:#4E4E4E" class="p-2">Así se obtiene una gasa con propiedades antimicrobianas estables, lista para su uso en el tratamiento y prevención de infecciones en heridas.</p>
+      </div>
     image: /images/nanosafe/Maquina01.png
     nombre: Impregnacion de nanoparticulas
 
   - title: <div class="flex flex-col justify-center items-center">
-      <h1 class="tracking-[.15em] mr-2 font-normal text-center text-blue-400  ">Gasa</h1>
-      <h1 class="tracking-[.15em] text-center font-bold text-blue-400  ">Y Tratamiento de Heridas</h1>
+      <h1 style="color:#00B2E2" class="tracking-[.15em] mr-2 font-normal text-center   ">Gasa</h1>
+      <h1 style="color:#00B2E2" class="tracking-[.15em] text-center font-bold  ">y Tratamiento de Heridas</h1>
       </div>
-    content:
-      "Acción antimicrobiana frente a un amplio espectro de microorganismos patógenos responsables de infecciones antibiótico-resistentes. Eficaz frente a bacterias Gram (-) y Gram (+), como Staphylococcus aureus y Escherida coli. Facilita proliferación de la flora normal de la epidermis. Mantiene su efectivisdad incluso en ambiente húmedo durante 72 horas.
-      No adherente y atoóxico."
+    content: <div  class="">
+      <p style="color:#4E4E4E" class="p-2">La gasa nanosafe, potenciada con nanopartículas de plata, se destaca por</p>
+      <p style="color:#4E4E4E" class="p-2"><b class="font-bold">Prevención de Infecciones:</b> Actúa eficazmente contra bacterias.</p>
+      <p style="color:#4E4E4E" class="p-2"><b class="font-bold">Ambiente Óptimo para la Cicatrización:</b> Favorece la reparación natural y reduce riesgos asociados a infecciones.</p>
+      <p style="color:#4E4E4E" class="p-2"><b class="font-bold">Versatilidad:</b>Se adapta fácilmente a diferentes tipos y tamaños de heridas.</p>
+      <p style="color:#4E4E4E" class="p-2">Un producto esencial para una atención integral en el cuidado de heridas.</p>
+      </div>
+
     image: /images/nanosafe/GAZA_ANIMADA.gif
     nombre: Gasa nanosafe
 
 ##key features
 features:
   title: <div class="flex flex-col justify-center items-center">
-    <h1 class="tracking-[.15em] mr-2 font-normal text-center text-blue-400  ">Informe</h1><h1 class="tracking-[.15em] text-center font-bold text-blue-400 ">laboratorio</h1></div>
+    <h1 style="color:#00B2E2" class="tracking-[.15em] mr-2 font-normal text-center  ">Informe</h1>
+    <h1 style="color:#00B2E2" class="tracking-[.15em] text-center font-bold text-blue-400 ">laboratorio</h1></div>
   description: Te detallamos algunos ejemplo para que te hagas una idea
   feature_list:
     - icon: "box" #icon package react-feather-icon [https://feathericons.com/]
-      title: 🛡 Antibacterial
-      content: Combate eficazmente bacterias y ayuda a prevenir <b class="text-text">infecciones.</b>.
+      title: Antibacterial
+      content: <p style="color:#4E4E4E">Combate eficazmente bacterias y ayuda a prevenir infecciones</p>
     - icon: "clock" #icon package react-feather-icon [https://feathericons.com/]
-      title: 🌬️ Cicatrización Más Rápida
+      title: Cicatrización Más Rápida
       content: Favorece un ambiente óptimo para la regeneración de tejidos.
     - icon: "search" #icon package react-feather-icon [https://feathericons.com/]
-      title: Antibacterial
-      content: ayuda a evitar contaminacion de <b class="text-text">hongos y bacteria</b>.
+      title: Producto Estéril
+      content: Listo para ser utilizado en entornos clínicos con seguridad.
     - icon: "plus" #icon package react-feather-icon [https://feathericons.com/]
-      title: Mas Saludable
-      content: Ayuda a un mejor cuidado y regeneracion de las  <span class="text-accent font-bold">heridas</span>.
+      title: Versátil en Aplicaciones
+      content: Útil en heridas agudas, crónicas, quirúrgicas o de difícil cicatrización.
     - icon: "box" #icon package react-feather-icon [https://feathericons.com/]
-      title: Antibacterial
-      content: ayuda a evitar contaminacion de <b class="text-text">hongos y bacteria</b>.
+      title: Seguro para la Piel
+      content: No irrita ni altera los tejidos; apto para uso prolongado.
     - icon: "clock" #icon package react-feather-icon [https://feathericons.com/]
-      title: Mas Saludable
-      content: Ayuda a un mejor cuidado y regeneracion de las  <span class="text-accent font-bold">heridas</span>
+      title: Alta Absorción
+      content: Retiene fluidos sin perder integridad, ideal para heridas exudativas.
     - icon: "search" #icon package react-feather-icon [https://feathericons.com/]
-      title: Antibacterial
-      content: ayuda a evitar contaminacion de <b class="text-text">hongos y bacteria</b>.
+      title: Suave y Flexible
+      content: Se adapta fácilmente al cuerpo sin causar molestias.
     - icon: "plus" #icon package react-feather-icon [https://feathericons.com/]
-      title: Mas Saludable
-      content: Ayuda a un mejor cuidado y regeneracion de las  <span class="text-accent font-bold">heridas</span>.
+      title: Listo para Usar
+      content: No requiere preparación adicional, solo aplicar y cubrir.
 
 #testimonial
 testimonial:

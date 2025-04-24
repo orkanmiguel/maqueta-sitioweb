@@ -2,7 +2,9 @@
 import Intro from "@/components/core/Intro.astro";
 import Section from "@/components/core/Section.astro";
 import Section2 from "@/components/core/Section2.astro";
+import Section3 from "@/components/core/Section3.astro";
 import Features from "@/components/Features.astro";
+import Gallery from "@/components/Gallery.astro";
 import Testimonial from "@/components/Testimonial.astro";
 import Base from "@/layouts/Base.astro";
 import Cta from "@/layouts/partials/Cta.astro";
@@ -48,9 +50,10 @@ if (sections && sections.length > 0) {
   <!-- multi section -->
   <Section section={seccion1} />
   <Section2 section={seccion2} />
-  <Section section={seccion3} />
+  <Section3 section={seccion3} />
   <!-- key features -->
   <Features features={features} />
+<!--   <Gallery  gallery={{title:"12", images:["/images/nanosafe/Maquina01.png","/images/nanosafe/Maquina02.png"]}}/> -->
   <!-- testimonial -->
   <!-- call to action -->
   <!-- <Cta {...call_to_action} /> -->
