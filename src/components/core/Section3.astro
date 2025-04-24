@@ -52,10 +52,10 @@ const texto_modificado = nombre.replaceAll(" ", "#")
 /* console.log("image_position_classes[2]",texto_modificado) */
 ---
 
-<section id={texto_modificado} style="background-color:#F0FCFF" class=`${image_position ? 'bg-blue-200' : ''}  section relative`>
+<section id={texto_modificado} style="background-color:#F0FCFF" class=`${image_position ? '' : ''}  section relative`>
   <div class="container " >
     <div
-      class=` row items-center flex-row-reverse `
+      class=` row items-center ${image_position ? 'custom-position ' : ''} ${image_position_classes[0]} `
     >
     <h1 class="mt-6" set:html={markdownify(title)} />
     {
