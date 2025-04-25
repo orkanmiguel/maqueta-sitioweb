@@ -48,7 +48,7 @@ sections:
       <p style="color:#4E4E4E" class="p-2">Un producto esencial para una atención integral en el cuidado de heridas.</p>
       </div>
 
-    image: /images/nanosafe/GAZA_ANIMADA.gif
+    image: /images/nanosafe/GAZAV2.gif
     nombre: Gasa nanosafe
 
 ##key features

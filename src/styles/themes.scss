@@ -10,7 +10,7 @@
 $default: (
   "primary": #1164a3,
   "secondary": #199afc,
-  "accent": #ff5a02,
+  "accent": #1164a3,
   "background": #f9f9f9,
   "background-contrast": #141414,
   "surface": #ffffff,
@@ -42,7 +42,7 @@ $dark: (
   "text-disabled": #999999
     // Override the default theme colors with the dark theme colors
   // "danger": #ea3434,,
-  // ...
+  // ...,,
 );
 
 // This can be used to set the default theme, or changed to a different theme with a custom class name
