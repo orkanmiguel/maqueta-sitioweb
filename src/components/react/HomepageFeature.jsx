@@ -31,9 +31,13 @@ const HomapageFeature = ({ feature_list }) => {
                   {item.title}
                 </h3>
               </div>
-              <p
-                dangerouslySetInnerHTML={{ __html: markdownify(item.content) }}
-              ></p>
+              <div className="bg-redd-500">
+                <p
+                  dangerouslySetInnerHTML={{
+                    __html: markdownify(item.content),
+                  }}
+                ></p>
+              </div>
             </div>
           </div>
         );

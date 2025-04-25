@@ -5,7 +5,7 @@ banner:
   title: 'Sitio <span class="text-accent text-shadow-[0px_5px_15px] shadow-accent/10">Nano Safe</span> Inicio <span class="text-secondary">Descripcion</span>'
   title_size: "text-4xl md:text-6xl"
   content: "Seguridad quirúrgica con nanopartículas de plata en gasa"
-  image: /images/nanosafe/Recurso7.webp
+  image: /images/nanosafe/Logo01.png
   buttons:
     - label: Solicitar muestra
       href: "/contacto"
@@ -38,7 +38,7 @@ sections:
 
   - title: <div class="flex flex-col justify-center items-center">
       <h1 style="color:#00B2E2" class="tracking-[.15em] mr-2 font-normal text-center   ">Gasa</h1>
-      <h1 style="color:#00B2E2" class="tracking-[.15em] text-center font-bold  ">y Tratamiento de Heridas</h1>
+      <h1 style="color:#00B2E2" class="tracking-[.15em] text-center font-bold  ">y tratamiento de Heridas</h1>
       </div>
     content: <div  class="">
       <p style="color:#4E4E4E" class="p-2">La gasa nanosafe, potenciada con nanopartículas de plata, se destaca por</p>
@@ -60,32 +60,32 @@ features:
   feature_list:
     - icon: "box" #icon package react-feather-icon [https://feathericons.com/]
       title: Antibacterial
-      content: <p style="color:#4E4E4E">Combate eficazmente bacterias y ayuda a prevenir infecciones</p>
+      content: <p class="break-keep hyphens-auto">Combate eficazmente bacterias y ayuda a <b class="font-bold break-keep hyphens-auto">prevenir infecciones<b>.</p>
     - icon: "clock" #icon package react-feather-icon [https://feathericons.com/]
       title: Cicatrización Más Rápida
-      content: Favorece un ambiente óptimo para la regeneración de tejidos.
+      content: <p class="break-keep hyphens-auto">Favorece un ambiente óptimo para la <b class="font-bold break-keep hyphens-auto">regeneración de tejidos</b>.</p>
     - icon: "search" #icon package react-feather-icon [https://feathericons.com/]
       title: Producto Estéril
-      content: Listo para ser utilizado en entornos clínicos con seguridad.
+      content: <p class="break-keep hyphens-auto">Listo para ser utilizado en <b class="font-bold break-keep hyphens-auto">entornos clínicos</b> con seguridad.</p>
     - icon: "plus" #icon package react-feather-icon [https://feathericons.com/]
       title: Versátil en Aplicaciones
-      content: Útil en heridas agudas, crónicas, quirúrgicas o de difícil cicatrización.
+      content: <div class="break-keep hyphens-auto"><b class="font-bold break-keep hyphens-auto">Útil en heridas</b> agudas, crónicas, quirúrgicas o de difícil cicatrización.</div>
     - icon: "box" #icon package react-feather-icon [https://feathericons.com/]
       title: Seguro para la Piel
-      content: No irrita ni altera los tejidos; apto para uso prolongado.
+      content: <p class="break-keep hyphens-auto">No irrita ni altera los tejidos; <b class="font-bold break-keep hyphens-auto">apto para uso prolongado</b>.</p>
     - icon: "clock" #icon package react-feather-icon [https://feathericons.com/]
       title: Alta Absorción
-      content: Retiene fluidos sin perder integridad, ideal para heridas exudativas.
+      content: <p class="break-keep hyphens-auto">Retiene fluidos sin perder integridad, <b class="font-bold break-keep hyphens-auto">ideal para heridas exudativas</b>.</p>
     - icon: "search" #icon package react-feather-icon [https://feathericons.com/]
       title: Suave y Flexible
-      content: Se adapta fácilmente al cuerpo sin causar molestias.
+      content: <p class="break-keep hyphens-auto">Se adapta fácilmente al cuerpo <b class="font-bold break-keep hyphens-auto">sin causar molestias</b>.</p>
     - icon: "plus" #icon package react-feather-icon [https://feathericons.com/]
       title: Listo para Usar
-      content: No requiere preparación adicional, solo aplicar y cubrir.
+      content: <p class="break-keep hyphens-auto"> No requiere preparación adicional, <b class="font-bold break-keep hyphens-auto">solo aplicar y cubrir.</p>
 
 #testimonial
 testimonial:
-  title: Nuestros clientes <ins>tienen cosas buenas que decir</ins> sobre nosotros
+  title: Nuestros clientes <ins>tienen cosas buenas que decir</ins> sobre nosotros</b>
   description:
   testimonial_list:
     - author: Dr. Juan Guzman
