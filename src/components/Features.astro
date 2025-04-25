@@ -7,7 +7,7 @@ const { title, description, feature_list } = features;
 ---
 
 <section class="section key-feature relative">
-  <div class="container">
+  <div class="container whitespace-normal break-words overflow-wrap break-word">
     <div class="row justify-between text-center lg:text-start ">
       <div class="">
         <h1 class="text-center"  set:html={markdownify(title)} />
@@ -25,6 +25,9 @@ const { title, description, feature_list } = features;
    <!--  <div class="mt-6 lg:col-5 lg:mt-0 text-text-secondary">
       <p set:html={markdownify(description)} />
     </div> -->
-    <HomepageFeature feature_list={feature_list} client:load />
+    <div class="row items-center">
+      <HomepageFeature feature_list={feature_list} client:load />
+    </div>
+
   </div>
 </section>

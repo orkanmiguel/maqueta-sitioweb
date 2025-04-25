@@ -4,7 +4,7 @@ import { markdownify } from "@/lib/utils/textConverter";
 
 const HomapageFeature = ({ feature_list }) => {
   return (
-    <div className="key-feature-grid mt-10 grid grid-cols-1 gap-7 md:grid-cols-2 xl:grid-cols-4 p-5 ">
+    <div className="mx-2 mt-10 grid grid-cols-1 gap-7 md:grid-cols-2 xl:grid-cols-4 p-5 ">
       {feature_list.map((item, i) => {
         const FeatherIcon = Icon[humanize(item.icon)];
         return (
@@ -27,12 +27,11 @@ const HomapageFeature = ({ feature_list }) => {
                     width={50}
                   />
                 </div>
-                <h3 className="ml-2 break-all text-sm md:text-lg">
-                  {item.title}
-                </h3>
+                <h3 className="ml-2 text-sm md:text-lg">{item.title}</h3>
               </div>
-              <div className="bg-redd-500">
+              <div className="whitespace-normal break-words overflow-wrap break-word">
                 <p
+                  className="mt-2"
                   dangerouslySetInnerHTML={{
                     __html: markdownify(item.content),
                   }}

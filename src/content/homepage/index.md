@@ -60,28 +60,28 @@ features:
   feature_list:
     - icon: "box" #icon package react-feather-icon [https://feathericons.com/]
       title: Antibacterial
-      content: <p class="break-keep hyphens-auto">Combate eficazmente bacterias y ayuda a <b class="font-bold break-keep hyphens-auto">prevenir infecciones<b>.</p>
+      content: <p style="color:#4E4E4E">Combate eficazmente bacterias y ayuda a <b class="font-bold">prevenir infecciones<b>.</p>
     - icon: "clock" #icon package react-feather-icon [https://feathericons.com/]
       title: Cicatrización Más Rápida
-      content: <p class="break-keep hyphens-auto">Favorece un ambiente óptimo para la <b class="font-bold break-keep hyphens-auto">regeneración de tejidos</b>.</p>
+      content: <p style="color:#4E4E4E">Favorece un ambiente óptimo para la <b class="font-bold">regeneración de tejidos</b>.</p>
     - icon: "search" #icon package react-feather-icon [https://feathericons.com/]
       title: Producto Estéril
-      content: <p class="break-keep hyphens-auto">Listo para ser utilizado en <b class="font-bold break-keep hyphens-auto">entornos clínicos</b> con seguridad.</p>
+      content: <p style="color:#4E4E4E">Listo para ser utilizado en <b class="font-bold">entornos clínicos</b> con seguridad.</p>
     - icon: "plus" #icon package react-feather-icon [https://feathericons.com/]
       title: Versátil en Aplicaciones
-      content: <div class="break-keep hyphens-auto"><b class="font-bold break-keep hyphens-auto">Útil en heridas</b> agudas, crónicas, quirúrgicas o de difícil cicatrización.</div>
+      content: <div style="color:#4E4E4E"><b class="font-bold">Útil en heridas</b> agudas, crónicas, quirúrgicas o de difícil cicatrización.</div>
     - icon: "box" #icon package react-feather-icon [https://feathericons.com/]
       title: Seguro para la Piel
-      content: <p class="break-keep hyphens-auto">No irrita ni altera los tejidos; <b class="font-bold break-keep hyphens-auto">apto para uso prolongado</b>.</p>
+      content: <p style="color:#4E4E4E">No irrita ni altera los tejidos; <b class="font-bold">apto para uso prolongado</b>.</p>
     - icon: "clock" #icon package react-feather-icon [https://feathericons.com/]
       title: Alta Absorción
-      content: <p class="break-keep hyphens-auto">Retiene fluidos sin perder integridad, <b class="font-bold break-keep hyphens-auto">ideal para heridas exudativas</b>.</p>
+      content: <p style="color:#4E4E4E">Retiene fluidos sin perder integridad, <b class="font-bold">ideal para heridas exudativas</b>.</p>
     - icon: "search" #icon package react-feather-icon [https://feathericons.com/]
       title: Suave y Flexible
-      content: <p class="break-keep hyphens-auto">Se adapta fácilmente al cuerpo <b class="font-bold break-keep hyphens-auto">sin causar molestias</b>.</p>
+      content: <p style="color:#4E4E4E">Se adapta fácilmente al cuerpo <b class="font-bold br">sin causar molestias</b>.</p>
     - icon: "plus" #icon package react-feather-icon [https://feathericons.com/]
       title: Listo para Usar
-      content: <p class="break-keep hyphens-auto"> No requiere preparación adicional, <b class="font-bold break-keep hyphens-auto">solo aplicar y cubrir.</p>
+      content: <p style="color:#4E4E4E"> No requiere preparación adicional, <b class="font-bold br">solo aplicar y cubrir.</p>
 
 #testimonial
 testimonial:

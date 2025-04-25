@@ -1,6 +1,12 @@
 body {
-  @apply font-primary text-text bg-background;
+  @apply font-primary text-text bg-background w-full;
 }
+
+html,
+body {
+  overflow-x: hidden;
+}
+
 .dark body {
   @apply bg-slate-950 bg-[url(/images/bg.svg)] bg-cover bg-repeat;
 }
