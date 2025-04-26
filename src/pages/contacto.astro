@@ -28,7 +28,7 @@ const { contact_form_action } = config.params;
             <div class="md:col-12 md:order-1 grid place-content-center">
               <form
                 class="lg:max-w-[484px]"
-                action={contact_form_action}
+                action="" method="POST"
                 method="POST"
               >
                 <div class="form-group mb-5">
@@ -37,16 +37,20 @@ const { contact_form_action } = config.params;
                     class="form-control bg-white font-bold"
                     type="text"
                     id="name"
+                    name="name"
                     placeholder="Tú nombre completo"
+                    required
                   />
                 </div>
                 <div class="form-group mb-5">
                   <label class="text-white form-label font-bold text-center text-shadow-[0px_5px_15px] shadow-accent/8" for="eamil">Correo Electronico</label>
                   <input
                     class="form-control bg-white font-bold"
-                    type="text"
+                    type="email"
                     id="email"
+                    name="email"
                     placeholder="Tú Correo"
+                    required
                   />
                 </div>
                 <div class="form-group mb-5">
@@ -63,17 +67,15 @@ const { contact_form_action } = config.params;
                 <div class="form-group mb-5">
                   <label class="text-white form-label font-bold text-center text-shadow-[0px_5px_15px] shadow-accent/8" for="message">Mensaje aquí</label>
                   <textarea
+                    name="message"
                     class="bg-white form-control h-[150px]"
                     id="message"
                     cols="30"
                     rows="10"></textarea>
                 </div>
-                <input
-                  class=" btn-primary block w-full"
-                  type="submit"
-                  value="Enviar Mensaje"
-                  onclick="alert('This form is not functional. Please use the email address provided in the footer to contact me.')"
-                />
+                <div class="flex justify-center">
+                <button type="submit" class="bg-cyan-500 btn btn-lg btn-dark btn-block hover:bg-cyan-700 " name="_next" value="https://www.nanosafe.cl/gracias">Enviar Mensaje</button>
+                </div>
               </form>
             </div>
           </div>

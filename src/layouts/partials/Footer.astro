@@ -15,10 +15,10 @@ const has_social = Object.entries(social).some(
 ---
 
 <footer class="footer border-t border-border mx-2">
-  <div  style="background-color:#F0FCFF" class="container">
-    <div class="gx-5 row pb-10 pt-[52px] lg:ml-64">
-      <div class="col-12 mt-12 md:col-6 lg:col-3 ">
-        <div class="mt-50 flex justify-center items-center">
+  <div  style="background-color:#F0FCFF" class="container flex flex-row justify-center items-center">
+    <div class="gx-5 row  pt-[52px] flex flex-row justify-center ">
+      <div class=" col-12 mt-12 md:col-6 lg:col-3 flex justify-center items-center">
+        <div class="-mt-20 flex flex-col justify-center items-center">
           <Image
             class="object-contain"
             alt="section-image"
@@ -33,17 +33,18 @@ const has_social = Object.entries(social).some(
             width={200}
             height={200}
           />
+          <div class="flex justify-center items-center">
+            <Image
+              class="object-contain"
+              alt="section-image"
+              src="/images/nanosafe/logocorfo.png"
+              width={150}
+              height={150}
+            />
+          </div>
         </div>
 
-        <div class="flex justify-center items-center">
-          <Image
-            class="object-contain"
-            alt="section-image"
-            src="/images/nanosafe/logocorfo.png"
-            width={150}
-            height={150}
-          />
-        </div>
+
 
 
       </div>
@@ -80,12 +81,18 @@ const has_social = Object.entries(social).some(
               {phone}
             </a>
           </li>
-          <div class="flex row mt-9">
+          <div class="flex row mt-12">
             <h6 style="color:#00B2E2" >{social.title ?? "Redes Sociales"}</h6>
             <Social source={social} className="social-icons -mt-5" />
           </div>
         </ul>
       </div>
+      <div class="flex flex-row justify-center items-center pb-6" >
+        <p class="text-center -mx-8 mt-8" >| All Rights Reserved | © 2025 by <a href="https://estudioslufke.cl/" class=" hover:text-cyan-500"> Estudios Lüfke |</a>
+          </p>
+
+      </div>
     </div>
+
   </div>
 </footer>

@@ -1,0 +1,58 @@
+---
+import SectionGracias from "@/components/core/SectionGracias.astro";
+import Section from "@/components/core/Section.astro";
+import Section2 from "@/components/core/Section2.astro";
+import Section3 from "@/components/core/Section3.astro";
+import SectionTest from "@/components/core/SectionTest.astro";
+import Features from "@/components/Features.astro";
+import Gallery from "@/components/Gallery.astro";
+import Testimonial from "@/components/Testimonial.astro";
+import Base from "@/layouts/Base.astro";
+import Cta from "@/layouts/partials/Cta.astro";
+import { getEntry } from "astro:content";
+
+const homepage = await getEntry("gracias", "index");
+// console.log(homepage);
+const { banner, sections, features, testimonial } = homepage.data;
+
+const call_to_action = homepage.data.call_to_action;
+/* console.log("sections",sections) */
+let seccion1;
+if (sections && sections.length > 0) {
+    seccion1 = sections[0];
+   /*  console.log(seccion1); */
+} else {
+   /*  console.error("El objeto 'sections' está vacío o no está definido."); */
+}
+
+
+let seccion2
+if (sections && sections.length > 0) {
+  seccion2 = sections[1];
+/*     console.log(seccion2); */
+} else {
+ /*    console.error("El objeto 'sections' está vacío o no está definido."); */
+}
+let seccion3
+if (sections && sections.length > 0) {
+  seccion3 = sections[2];
+   /*  console.log(seccion3); */
+} else {
+/*     console.error("El objeto 'sections' está vacío o no está definido."); */
+}
+---
+
+<Base>
+  <!-- banner -->
+  <section class="lg:mb-10 animate-fade-in -mt-500">
+    <SectionGracias section={banner}/>
+  </section>
+  <!-- multi section -->
+<!--   <Gallery  gallery={{title:"12", images:["/images/nanosafe/Maquina01.png","/images/nanosafe/Maquina02.png"]}}/> -->
+  <!-- testimonial -->
+  <!-- call to action -->
+  <!-- <Cta {...call_to_action} /> -->
+  <!-- <Content /> -->
+
+
+</Base>
